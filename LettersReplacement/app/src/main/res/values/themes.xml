@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LettersReplacement" parent="Theme.MaterialComponents">
+        <!-- Primary brand color.-->
+        <item name="colorPrimary">@color/main</item>
+        <item name="colorPrimaryVariant">@color/main</item>
+        <item name="colorOnPrimary">@color/dark</item>
+        <!-- Secondary brand color.-->
+        <item name="colorSecondary">@color/main</item>
+        <item name="colorSecondaryVariant">@color/main</item>
+        <item name="colorOnSecondary">@color/dark</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">20dp</item>
+        <item name="actionBarStyle">@style/Custom.ActionBar</item>
+</style>
+
+
+<style name="Custom.ActionBar" parent="Widget.AppCompat.ActionBar">
+    <item name="background">@color/main</item>
+    <item name="android:textColor">@color/dark</item>
+    <item name="titleTextStyle">@style/Custom.ActionBar.TitleTextStyle</item>
+    <item name="homeAsUpIndicator">@drawable/ic_logo</item>
+    <item name="displayOptions">homeAsUp|showTitle</item>
+</style>
+
+<style name="Custom.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance">
+    <item name="android:textSize">25dp</item>
+
+    <item name="android:textColor">@color/dark</item>
+
+</style>
+
+<style name="Custom.TitleTextStyle" parent="@android:style/TextAppearance">
+    <item name="android:textSize">20dp</item>
+</style>
+
+<style name="Custom.TabText" parent="TextAppearance.Design.Tab">
+    <item name="android:textSize">20dp</item>
+</style>
+
+</resources>

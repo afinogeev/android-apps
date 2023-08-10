@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="9">
+
+            <androidx.camera.view.PreviewView
+                android:id="@+id/viewFinder"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:padding="5dp" >
+            </androidx.camera.view.PreviewView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/num1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="#C8FFC8"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:maxEms="4"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/num2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="#C8FFFF"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:maxEms="4"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/num3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="#C8FFC8"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:maxEms="4"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:id="@+id/num4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="#C8FFFF"
+                    android:gravity="center"
+                    android:inputType="numberDecimal"
+                    android:maxEms="4"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/priceText"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:text= "@string/summ_sms" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/price"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:gravity="center"-->
+<!--                    android:inputType="numberDecimal"-->
+<!--                    android:maxEms="5"-->
+<!--                    android:minHeight="48dp"-->
+<!--                    android:layout_weight="2"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:text="" />-->
+<!--            </LinearLayout>-->
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal" >-->
+
+<!--                <android.widget.Button-->
+<!--                    android:id="@+id/sendMoneySms"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:backgroundTint="#08A652"-->
+<!--                    android:text="@string/send_sms" />-->
+
+            <!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <android.widget.Button
+                    android:id="@+id/sendMoneyApp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#08A652"
+                    android:padding="5dp"
+                    android:text="@string/send_app"
+                    android:textSize="20sp" />
+
+
+                <android.widget.Button
+                    android:id="@+id/sendMoneyAppQps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:backgroundTint="#08A652"
+                    android:padding="5dp"
+                    android:text="@string/send_app_qps"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1">-->
+
+<!--            <com.google.android.gms.ads.AdView-->
+<!--                android:id="@+id/adView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentBottom="true"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="5dp"-->
+<!--                app:adSize="SMART_BANNER"-->
+<!--                app:adUnitId="ca-app-pub-8486355160948188/2630293617">-->
+<!--            </com.google.android.gms.ads.AdView>-->
+<!--            &lt;!&ndash;                ca-app-pub-3940256099942544/6300978111&ndash;&gt;-->
+
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

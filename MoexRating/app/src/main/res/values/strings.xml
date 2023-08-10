@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoexRating</string>
+    <string name="app_name_rus">Рейтинг МосБиржи</string>
+    <string name="no_internet">Отстутствует соединение с сервером</string>
+    <string name="menu_about">О рейтинге</string>
+    <string name="menu_about_text">
+        \n
+        <b>Акции</b>\n
+        Рейтинг акций расчитывается на сайте <i>dohod.ru</i>, основываясь на dcf, стоимостной и дивидендных стратегиях.
+        Цвет строк акций основывается на данных технического анализа полученных с сайта <i>investing.com</i>.
+        Интервалы технического анализа: день, неделя, месяц.
+        Графики и фундаментальные показатели акций открываются на сайте <i>smart-lab.ru</i>. \n
+        \n
+        <b>Облигации</b>\n
+        Рейтинг облигаций рассчитывается по критериям доходности и дюрации.
+        Данные об облигациях получены с сайта <i>smart-lab.ru</i>.
+        При нажатии на строку облигации открывается страница на <i>smart-lab.ru</i>.
+
+    </string>
+    <string name="menu_contacts">Контакты</string>
+    <string name="menu_contacts_text">
+        \n
+        В случае возникновения ошибки и по любым техническим вопросам пишите на почту:\n
+        \n
+        <b>afinogeevrv@gmail.com</b>
+    </string>
+
+</resources>

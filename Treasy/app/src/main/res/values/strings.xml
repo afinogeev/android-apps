@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Treasy</string>
+    <string name="unknown_error">Unknown error occurred.</string>
+    <string name="overlay_help">Center text in box</string>
+    <string name="downloading_model_files">Downloading model files...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="summ_sms">СУММА(только для СМС):</string>
+    <string name="send_sms">СМС</string>
+    <string name="send_app">Открыть приложение Сбербанк для перевода КЛИЕНТУ СБЕРА</string>
+    <string name="send_app_qps">Открыть приложение Сбербанк для перевода через СБП</string>
+    <string name="instruction">
+    Treasy (Transfer easy) - Переводи легко \n
+    \n
+        Данное приложение сокращает время на перевод денег.
+        Приложение автоматически распознает номер телефона или номер карты получателя
+        и позволяет выбрать наиболее удобный способ перевода.\n
+    \n
+    Как ввести номер: \n
+        - навести камеру на изображение с номером для автоматического распознавания \n
+        - если номер пришел в сообщении и выделен, как ссылка, нажать на него, выбрать Treasy, приложение автоматически добавит номер \n
+        - скопировать номер (выделить->копировать) из любого текста, открыть Treasy, номер автомачически будет добавлен \n
+        - ввести вручную \n
+    \n
+    Как перевести деньги: \n
+        - убедиться в правильности номера \n
+        - нажать на кнопку перевода \n
+        Номер перевода будет скопирован в буфер обмена. После открытия приложения банка, необходимо вставить номер из буфера обмена
+    </string>
+</resources>

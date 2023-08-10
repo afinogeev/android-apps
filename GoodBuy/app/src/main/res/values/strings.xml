@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GoodBuy</string>
+    <string-array name="sortNames">
+        <item>По возрастанию цены</item>
+        <item>По убыванию цены</item>
+        <item>По популярности</item>
+    </string-array>
+    <string name="welcome">Данное приложение поможет вам найти подходящий товар и совершить выгодную покупку. \n
+        Некоторые цены могут отличаться, так как информация о товарах обновляется с задержкой.
+    </string>
+    <string name="captcha_check">Пройдите проверку и нажмите закрыть</string>
+    <string name="close">Закрыть</string>
+    <string name="rate_please">Оцените приложение</string>
+    <string name="rate_stars">★ ★ ★ ★ ★</string>
+    <string name="rate_src">Нажмите на данную карточку для перехода в Google Play</string>
+</resources>

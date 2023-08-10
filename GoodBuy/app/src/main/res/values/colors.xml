@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_light">#ffffdf7f</color>
+    <color name="main_dark">#ffff9f3f</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="src">#AAAAAAAA</color>
+    <color name="price">#ffff9f3f</color>
+    <color name="name">#FF555555</color>
+    <color name="card">#FFFFFFFF</color>
+    <color name="gray_light">#EEEEEEEE</color>
+    <color name="gray_dark">#FF555555</color>
+</resources>

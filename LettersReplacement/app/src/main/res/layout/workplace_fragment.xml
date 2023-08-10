@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkplaceFragment"
+    android:padding="5dp"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:gravity="center" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:gravity="left|top"
+                android:background="@color/edit"
+                android:textColor="@color/light"
+                android:hint="@string/text_main_hint" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginVertical="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/mode0" />
+
+            <Switch
+                android:id="@+id/switchMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/mode1" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonProcess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light"
+            android:gravity="center"
+            android:text="@string/button_process" />
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

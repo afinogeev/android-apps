@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <path
+        android:fillColor="#ffbf5f"
+        android:name="Прямоугольник 1"
+        android:pathData="m256 256h160v160h-160v-160z" />
+    <path
+        android:fillColor="#ff9f3f"
+        android:name="Прямоугольник 1"
+        android:pathData="m176 96h160v160h-160v-160z" />
+    <path
+        android:fillColor="#ffdf7f"
+        android:name="Прямоугольник 1"
+        android:pathData="m96 256h160v160h-160v-160z" />
+    <path
+        android:fillColor="#ffefdf"
+        android:name="Прямоугольник 2"
+        android:pathData="m304 256h64v64h-64v-64z" />
+    <path
+        android:fillColor="#ffefdf"
+        android:name="Прямоугольник 2"
+        android:pathData="m224 96h64v64h-64v-64z" />
+    <path
+        android:fillColor="#ffefdf"
+        android:name="Прямоугольник 2"
+        android:pathData="m144 256h64v64h-64v-64z" />
+</vector>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Letters Replacement</string>
+    <string name="app_name_rus">Замена букв</string>
+    <string name="menu_about">О приложении</string>
+    <string name="menu_about_text">
+        \n
+        Данное приложение выполняет замену символов кириллицы на схожие по написанию символы.\n
+        \n
+        Доступна возможность задать собственные символы для замены. Для этого нужно перейти во вкладку "Алфавит" и отредактировать соответствующий символ.\n
+        \n
+        Приложение повышает уникальность текста и позволяет проходить антиплагиат проверку.\n
+
+    </string>
+    <string name="menu_contacts">Контакты</string>
+    <string name="menu_contacts_text">
+        \n
+        В случае возникновения ошибки и по любым техническим вопросам пишите на почту:\n
+        \n
+        <b>afinogeevrv@gmail.com</b>
+    </string>
+    <string name="button_process">Преобразовать</string>
+    <string name="button_unprocess">Обратно</string>
+    <string name="text_wait">Пожалуйста подождите</string>
+    <string name="text_main_hint">Ваш текст</string>
+    <string name="mode0">Стандарт</string>
+    <string name="mode1">Ультра</string>
+    <string name="developer">afinogeev.ru, 2022</string>
+</resources>
